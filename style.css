@@ -1,0 +1,310 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DD5353;
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.brand-name{
+  font-size: 1.75rem;
+  margin: .5rem;
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover{
+  background-color: #C84B31;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.computer-gif{
+  width: 300px;
+  float: right;
+}
+
+.computer-gif2{
+  width: 300px;
+  float: left;
+}
+
+.bottom-countainer{
+  height: 10vh;
+  width: 99vw;
+  background-color: #DD5353;
+  margin-top: 30px;
+}
+
+.linkedin{
+  text-decoration: none;
+  color: #f9f9f9;
+  position: relative;
+  left: 610px;
+  top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.linkedin:hover{
+  color: #40514E;
+}
+
+.github{
+  text-decoration: none;
+  color: #f9f9f9;
+  position: relative;
+  left: 640px;
+  top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.github:hover{
+  color: #40514E;
+}
+
+.copy-right{
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 17.5px;
+  font-size: .75rem;
+}
+
+
+.btn {
+  background: #C84B31;
+  background-image: -webkit-linear-gradient(top, #C84B31, #C84B31);
+  background-image: -moz-linear-gradient(top, #C84B31, #C84B31);
+  background-image: -ms-linear-gradient(top, #C84B31, #C84B31);
+  background-image: -o-linear-gradient(top, #C84B31, #C84B31);
+  background-image: linear-gradient(to bottom, #C84B31, #C84B31);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 340px;
+}
+
+.btn:hover {
+  background: #DD5353;
+  background-image: -webkit-linear-gradient(top, #DD5353, #DD5353);
+  background-image: -moz-linear-gradient(top, #DD5353, #DD5353);
+  background-image: -ms-linear-gradient(top, #DD5353, #DD5353);
+  background-image: -o-linear-gradient(top, #DD5353, #DD5353);
+  background-image: linear-gradient(to bottom, #DD5353, #DD5353);
+  text-decoration: none;
+}
+
+.body-countainer{
+  margin-left: 350px;
+  width: 60vw;
+}
+
+.footer{
+  width:60vw;
+  margin-left: 350px;
+  height: auto;
+}
+
+.intro{
+  margin-left: 20px;
+}
+
+ .hacker-img{
+   width: 150px;
+   float: left;
+ }
+
+h3{
+  color: #DD5353;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #C84B31;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  color: #40514E;
+}
+
+hr{
+  border-style: dotted none none;
+  width:10%;
+  border-width: 7px;
+  border-color: #CFD2CF;
+  margin: 150px auto;
+}
+
+.skills{
+  width: 60vw;
+  height: auto;
+}
+
+.get-in-touch{
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 2px;
+}
+
+.contact-msg{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* first countainer */
+
+@media (max-width: 768px){
+  .body-countainer{
+    margin-left: 100px;
+  }
+
+.btn{
+  margin-left: 50px;
+  margin-bottom: auto;
+}
+
+.my-skills{
+  text-align: center;
+}
+
+
+
+.footer{
+  margin-left: 100px;
+}
+
+.study{
+  text-align: center;
+}
+
+.computer-gif{
+  margin-left: 50px;
+}
+
+.intro{
+  margin-left: 105px;
+}
+
+.Languages{
+  text-align: center;
+}
+
+  p{
+    font-size: .75rem;
+    line-height: 2;
+    font-size: .9rem;
+  }
+  hr{
+    width:25%;
+    border-width: 8px;
+  }
+  .hello{
+    text-align: center;
+  }
+
+.github{
+  left: 200px;
+}
+
+.linkedin{
+  left: 150px;
+}
+
+.hacker-img{
+  width: 90px;
+}
+.computer-gif{
+  width: 200px;
+  float: none;
+}
+.computer-gif2{
+  width: 300px;
+  float: none;
+}
+.bottom-countainer{
+  margin-top: 30px;
+}
+}
+
+/* navbar */
+
+@media (max-width: 768px){
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem, 0.75rem;
+  }
+
+  .navbar-links li{
+    text-align: center;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
+}
